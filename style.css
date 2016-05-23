@@ -1,0 +1,79 @@
+@import url("whitespace-reset.css");
+body {
+	padding: 0 60px;
+	font: normal 18px 'Roboto Condensed', sans-serif;
+	color: #3e606f;
+	background-image: linear-gradient(to bottom, #d1dbbd, #fcfff4);
+	background-repeat: no-repeat;
+}
+* {
+	box-sizing: border-box;
+}
+header, main, footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+/* Header */
+header {
+	padding: 20px 20px 0 20px;
+	overflow: hidden;
+}
+
+nav{
+	float: right;
+	padding: 75px 0 0 0;
+}
+nav li{
+	display: inline-block;
+}
+nav a {
+	display: block;
+	color: #91aa9d;
+	padding: 15px 43px;
+	background: #fcfff5;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+li a.active {
+	background: #91aa9d;
+	color: white;
+}
+h1 {
+	float: left;
+	font-size: 36px;
+	color: #193441;
+	padding: 45px 0 20px 113px;
+	background: transparent url("Icon.png") 0 0 no-repeat;
+}
+/* Main */
+
+main {
+
+	background: white;
+	padding: 30px;
+	overflow: auto;
+	box-shadow: 0 5px 5px #bebebd;
+}
+
+main h2 {
+	font-size: 32px;
+	padding: 40px 0 30px 0;
+}
+main p {
+	padding: 0 0 20px 0;
+}
+article {
+	float: left;
+}
+/*Footer*/
+footer {
+	padding: 15px 0 35px 0;
+}
+#img {
+	width: 100%;
+}
+#article-img {
+	margin: 0 0 20px 30px;
+	float: right;
+}
